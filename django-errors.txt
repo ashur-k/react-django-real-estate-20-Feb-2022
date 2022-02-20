@@ -1,0 +1,4 @@
+After changing folder structure and settings.py structure I was not able to run django admin
+for this I have to migrate site manually with following command
+
+    ./manage.py migrate sites
