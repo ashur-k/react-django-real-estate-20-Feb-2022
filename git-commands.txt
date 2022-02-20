@@ -1,0 +1,1 @@
+git remote -v, to check git update url
