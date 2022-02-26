@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import Rating
 
-class RatingSerialzer(serializers.ModelSerializer):
+class RatingSerializer(serializers.ModelSerializer):
     rater = serializers.SerializerMethodField(read_only=True)
     agent = serializers.SerializerMethodField(read_only=True)
 
